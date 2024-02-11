@@ -1,0 +1,109 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1576858978851-fadc54c3c0dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img:hover{
+    opacity:0.8;
+}
+.choice{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 50px;
+}
+.choice:hover{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    font-weight: bold;
+}
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.user,.computer{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+#userScore{
+    text-align: center;
+}
+.winner{
+    text-align: center;
+    font-size: 70px;
+    color:#BFCC94;
+    background-color: green;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.looser{
+    text-align: center;
+    font-size: 70px;
+    color:#BFCC94;
+    background-color: red;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.draw{
+    text-align: center;
+    font-size: 70px;
+    color:black;
+    background-color: yellow;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.reset{
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:none;
+    background-color: blue;
+    color:antiquewhite;
+    transition: all 0.3s ease;
+}
+button:hover{
+    transform: scale(1.05);
+}
+button:active{
+    transform: scale(0.95);
+    box-shadow: 0 0 10px whitesmoke;
+}
